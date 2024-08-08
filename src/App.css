@@ -1,38 +1,38 @@
-.App {
+.App{
+  font-family:Arial,sans-serif;
   text-align: center;
+  margin: 500px;
+  margin-top: 10px;
+  margin-bottom: 0%;
+  background-color: #cad9f8;
+  border-radius: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-group{
+  margin-bottom: 20px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  width: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+label{
+  display:block;
+  margin-bottom: 8px;
+}
+select,button{
+  padding: 8px;
+  font-size: 16px;
+}
+button{
+  cursor: pointer;
+  background-color: #4caf50;
   color: white;
+  border: none;
+  border-radius: 4px;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover{
+  background-color: #45a049;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-time-picker__inputGroup__input.react-time-picker__inputGroup__minute.react-time-picker__inputGroup__input--hasLeadingZero
+{
+  width: 100px;
 }
